@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+body .draggableItem {
+  height: 5rem;
+  width: 5rem;
+  background-color: red;
+  position: absolute;
+  left: 0%;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+body .draggableItem:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+body .radius {
+  border-radius: 50%;
+}
+
+body .item2 {
+  top: 20%;
+}
+
+body .area {
+  background-color: gray;
+  height: 50%;
+  width: 64%;
+  position: absolute;
+  right: 18%;
+}
+
+body .topArea {
+  top: 5%;
+}
+
+body .bottomArea {
+  top: 70%;
+}
+/*# sourceMappingURL=style.css.map */

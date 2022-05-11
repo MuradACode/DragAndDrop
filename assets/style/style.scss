@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    .draggableItem {
+        height: 5rem;
+        width: 5rem;
+        background-color: red;
+        position: absolute;
+        left: 0%;
+        transition: .5s;
+        cursor: grab;
+
+        &:active{
+            cursor: grabbing;
+        }
+    }
+
+    .radius{
+        border-radius: 50%;
+    }
+
+    .item2{
+        top: 20%;
+    }
+
+    .area{
+        background-color: gray;
+        height: 50%;
+        width: 64%;
+        position: absolute;
+        right: 18%;
+    }
+    
+    .topArea{
+        top: 5%;
+    }
+    
+    .bottomArea{
+        top: 70%;
+    }
+}
